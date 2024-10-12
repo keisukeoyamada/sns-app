@@ -1,0 +1,16 @@
+ 1063  cd backend\nnpm init -y
+ 1064  npm install express pg dotenv\nnpm install typescript ts-node @types/express @types/node @types/pg --save-dev
+ 1065  npx tsc --init
+ 1066  npm install -g @vue/cli
+ 1067  cd ..
+ 1068  npm install -g @vue/cli
+ 1069  node -v
+ 1070  npm -v
+ 1071  npm install -g @vue/cli
+ 1072  vue --version
+ 1073  vue create frontend
+ 1074  cd frontend
+ 1075  npm run serve
+ 1076  npm run serve
+ 1077  ps aux | grep node\n
+ 1078  cd ..

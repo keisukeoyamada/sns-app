@@ -1,0 +1,33 @@
+mkdir sns-app-backend
+cd sns-app-backend
+npm init -y
+
+npm install express pg dotenv
+npm install typescript ts-node @types/express @types/node @types/pg --save-dev
+
+npx tsc --init
+
+npm install -g @vue/cli
+vue create -n frontend #-n no initオプションつけないと勝手にgit管理される
+cd sns-app-frontend
+
+
+  
+  997  vi app.ts
+  998  vi routes.ts
+  999  vi db.ts
+ 1000  vi app.ts
+ 1001  vi routes.ts
+ 1002  vi db.ts
+ 1003  cd ..
+ 1004  vi .env
+ 1005  cd ..
+ 1006  npm install -g @vue/cli
+ 1007  npm install -g @vue/cli
+ 1008  sudo npm install -g @vue/cli
+ 1009  vue create sns-app-frontend
+ 1010  sudo vue create frontend
+ cd backend
+ 1011  npx ts-node src/app.ts
+ cd frontend
+ 1012  npm run serve
