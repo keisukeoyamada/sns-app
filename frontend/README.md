@@ -5,10 +5,11 @@
 npm install
 ```
 
-## 
+## set up dotenv and TypeScript
+```
 npm install express pg dotenv
 npm install typescript ts-node @types/express @types/node @types/pg --save-dev
-
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
